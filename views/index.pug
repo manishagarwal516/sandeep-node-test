@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Sign Up
+        link(rel="stylesheet", href="main.css")
+    body
+        section#mains
+            header#htitle() Sign up
+            section
+                form#fid(action="/register/Signup", method="POST")
+                    section#si
+                        section.felemt
+                            input.espace#ftag(type="text", name="ftag" placeholder='First name')
+                            input.espace#ltag(type="text", name="ltag" placeholder='Last name')
+                        section.felemt
+                            input#etag(type="text", name="etag" placeholder='E-mail')
+                        section.felemt
+                            input#ptag(type="text", name="ptag" placeholder='Password')
+                            section
+                                | At least 8 characters
+                        section.felemt
+                            input#ptag(type="text", name="ntag" placeholder='Phone number')
+                        section
+                            input#ptag(type="checkbox", name="ctag" placeholder='')
+                            | Subscribe to our newsletter
+                        section.felemt
+                            button#bid(type="submit" ) SIGN IN  
+                        section.felemt
+                            label#lid() By clicking Sign up you agree to our terms of service      
+                        

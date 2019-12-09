@@ -1,0 +1,26 @@
+#mains{
+    border: 1px solid;
+    width: 24%;
+}
+
+#htitle{
+    text-align: center;
+}
+
+#fid{
+    text-align: center;
+}
+
+#bid{
+    width: 59%;
+    background: #d9d9f5;
+}
+
+#lid{
+    font-size: 10px;
+}
+
+.felemt{
+    line-height: 2.1;
+}
+
